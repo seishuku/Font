@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="engine.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="font.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{89b6db9a-3cb0-4397-9ea1-fd66956ee621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5dcac6fa-5678-41a7-a764-3720cf90d5e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
